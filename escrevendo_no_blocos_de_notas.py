@@ -13,6 +13,10 @@ texto= input('Escreva algo no bloco de notas:')
 #pyautogui.press('enter')
 pyautogui.moveTo(701,751,duration=1)
 pyautogui.click()
+pyautogui.hotkey('ctrl','a')#seleciona tudo
+sleep(1)
+pyautogui.press('Backspace')
+sleep(2)
 def frase_correta(texto):
     pyperclip.copy(texto)
     pyautogui.hotkey('ctrl','v')
