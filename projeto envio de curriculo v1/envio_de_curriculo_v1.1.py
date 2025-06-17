@@ -57,8 +57,8 @@ pyautogui.click()#clica no botão abrir
 pyautogui.moveTo(512,443,duration=1)#
 pyautogui.click()#
 pyautogui.moveTo(514,643,duration=2)#vai ate a caixa de dialogo
-pyautogui.click()#clica confirmando que mora nas proximidades
+pyautogui.click()#cD:\curriculo patricialica confirmando que mora nas proximidades
 pyautogui.scroll(-100)#rola ate o botão enviar
 pyautogui.moveTo(620,658,duration=1)#se move ate o botão enviar 
-pyautogui.click()#clica no botão enviar 
+#pyautogui.click()#clica no botão enviar 
 pyautogui.alert(text=f'Seu curiculo foi envidado com sucesso')
