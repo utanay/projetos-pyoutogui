@@ -16,7 +16,7 @@ pyautogui.moveTo(1172,341,duration=1)
 pyautogui.click(duration=1)
 pyautogui.moveTo(591,307)
 pyautogui.click()
-pyautogui.write('Patricia oliveira da silva')
+pyautogui.write(Patricia Oliveira Da Silva)
 #escreve o nome no campo nome
 sleep(2)
 pyautogui.moveTo(514,382,duration=1)

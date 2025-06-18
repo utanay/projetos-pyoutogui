@@ -15,14 +15,16 @@ nome=pyautogui.prompt('Digite o seu usuario:',title='Dados de Login')
 senha=pyautogui.password(text='Digite a sua senha',title='Dados de Login',mask='*')
 def usuario(nome):
     pyperclip.copy(nome)
-    pyautogui.write(nome,interval=1)
+    pyautogui.write(nome,interval=0.1)
     pyautogui.press('enter')
 usuario(nome)
 
 def chave (senha):
     pyperclip.copy(senha)
-    pyautogui.write(senha,interval=1)
+    pyautogui.write(senha,interval=0.1)
 chave (senha)
+
+
 
 
     

@@ -54,3 +54,4 @@ pyautogui.click()#clica confirmando que mora nas proximidades
 pyautogui.scroll(-100)#rola ate o botão enviar
 pyautogui.moveTo(620,658,duration=1)#se move ate o botão enviar 
 #pyautogui.click()#clica no botão enviar 
+pyautogui.moveTo()
